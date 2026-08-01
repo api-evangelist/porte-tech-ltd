@@ -1,7 +1,25 @@
 aid: porte-tech-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/porte-tech-ltd.png
 name: Porte Tech Ltd.
-description: Porte Tech Ltd. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Porte Tech Ltd. is a hotel technology company based in Astana, Kazakhstan
+  that offers a digital concierge platform to streamline guest experiences and reduce
+  front-desk workload for hotels. Its product covers digital check-in and check-out,
+  mobile room keys delivered via app, access codes or QR codes, Bluetooth lock upgrades
+  that reuse existing hardware, an in-app guest experience for bookings and amenity
+  ordering, integrations with spa, restaurant and laundry services, and a centralized
+  management dashboard for property staff. Porte is a 500 Global portfolio company.
+  No public API, SDK, or developer surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/porte-tech-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Hospitality
+- Hotel Technology
+- Digital Concierge
+- Guest Experience
+- Access Control
+- Kazakhstan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/porte-tech-ltd-domain-security.yml
 - type: Website
   url: https://porte.tech
+- type: TermsOfService
+  url: https://porte.tech/docs/Terms_of_use-RU.pdf
+- type: PrivacyPolicy
+  url: https://porte.tech/docs/PrivacyPolicy-RU.pdf
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
